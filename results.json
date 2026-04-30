@@ -1,0 +1,36 @@
+{
+    "round": 10,
+    "evasion_rate": 31.23,
+    "detector_accuracy": 79.69,
+    "samples_generated": 20000,
+    "threshold_breached": true,
+    "timestamp": "2026-04-30 16:27:23",
+    "alerts": [
+        "Retrain triggered"
+    ],
+    "training_status": "completed",
+    "evasion_history": [
+        99.61,
+        99.05,
+        99.4,
+        62.06,
+        76.89,
+        28.54,
+        74.51,
+        27.5,
+        78.61,
+        31.23
+    ],
+    "accuracy_history": [
+        77.39,
+        77.15,
+        76.46,
+        75.59,
+        75.63,
+        78.52,
+        74.07,
+        77.98,
+        77.25,
+        79.69
+    ]
+}
