@@ -1,0 +1,26 @@
+# Secrets and Config
+.env
+
+# Python junk
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+
+# Docker
+.docker/
+
+# Project Specific - Keeping the shared folders clean
+# We want to keep the folders, but not the files inside them
+shared_battleground/data/*.json
+shared_battleground/output/*.json
+
+# Database
+mlflow.db
+mlflow.db-journal
+
+# Operating System files
+.DS_Store
+Thumbs.db

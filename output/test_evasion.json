@@ -1,8 +1,0 @@
-{
-  "sample_id": "malware_v3_ransom_variant",
-  "original_label": "malicious",
-  "detection_status": "bypassed",
-  "features_modified": ["Feature #12 (Crypto API)", "Feature #55 (Shadow Copy Deletion)"],
-  "adversarial_score": 0.88,
-  "timestamp": "2026-04-30T17:35:00"
-}
