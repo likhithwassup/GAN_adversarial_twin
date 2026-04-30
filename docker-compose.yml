@@ -1,0 +1,25 @@
+services:
+  # The Automation & Watchdog (Your Domain)
+  orchestrator:
+    build: .
+    volumes:
+      - .:/app
+    command: python scripts/watchdog_service.py
+
+  # The Dashboard (Person 3's Domain)
+  dashboard:
+    build: .
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+    command: streamlit run app.py
+
+  # The ML Tracker (The AI Guy's Domain)
+  mlflow:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/app
+    command: mlflow ui --host 0.0.0.0 --port 5000

@@ -1,0 +1,6 @@
+watchdog==4.0.0
+streamlit
+polars
+lightgbm
+shap
+mlflow
