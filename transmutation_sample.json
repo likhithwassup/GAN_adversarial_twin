@@ -1,21 +1,23 @@
 {
     "original": {
-        "Feature_1": 90121.2,
-        "Feature_2": 42601.9,
-        "Feature_3": 93822.7,
-        "Feature_4": 109538.9,
-        "Feature_5": 87993.8
+        "Feature_1": 68595.7,
+        "Feature_2": 80551.9,
+        "Feature_3": 16974.6,
+        "Feature_4": 85750.7,
+        "Feature_5": 121178.9
     },
     "adversarial": {
-        "Feature_1": 81554.2,
-        "Feature_2": 41379.3,
-        "Feature_3": 84730.2,
-        "Feature_4": 98062.6,
-        "Feature_5": 87465.6
+        "Feature_1": 69672.8,
+        "Feature_2": 81816.7,
+        "Feature_3": 17241.1,
+        "Feature_4": 87097.2,
+        "Feature_5": 123081.7
     },
     "metadata": {
-        "status": "Generating Subtle Tweaks",
-        "timestamp": "02:19:10",
-        "scaling_applied": "5.0% max deviation"
+        "timestamp": "03:54:01",
+        "accuracy_val": 0.71,
+        "evasion_rate": "76%",
+        "status": "Infiltration Active",
+        "scaling": "5%"
     }
 }
